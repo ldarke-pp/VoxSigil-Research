@@ -1,0 +1,618 @@
+N=100 samples. Key: sk-or-v1-538...
+
+=== anthropic/claude-haiku-4.5 ===
+  recreated aura with anthropic/claude-haiku-4.5, waiting 15s...
+  #  1 cortex=78 mu=anthropic/claude-haiku-4.5
+  #  1 native=72
+  #  2 cortex=78 mu=anthropic/claude-haiku-4.5
+  #  2 native=72
+  #  3 cortex=76 mu=anthropic/claude-haiku-4.5
+  #  3 native=72
+  #  4 cortex=62 mu=anthropic/claude-haiku-4.5
+  #  4 native=42
+  #  5 cortex=78 mu=anthropic/claude-haiku-4.5
+  #  5 native=78
+  #  6 cortex=78 mu=anthropic/claude-haiku-4.5
+  #  6 native=42
+  #  7 cortex=28 mu=anthropic/claude-haiku-4.5
+  #  7 native=72
+  #  8 cortex=42 mu=anthropic/claude-haiku-4.5
+  #  8 native=72
+  #  9 cortex=22 mu=anthropic/claude-haiku-4.5
+  #  9 native=42
+  # 10 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 10 native=72
+  # 11 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 11 native=78
+  # 12 cortex=38 mu=anthropic/claude-haiku-4.5
+  # 12 native=42
+  # 13 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 13 native=42
+  # 14 cortex=12 mu=anthropic/claude-haiku-4.5
+  # 14 native=78
+  # 15 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 15 native=78
+  # 16 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 16 native=72
+  # 17 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 17 native=42
+  # 18 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 18 native=42
+  # 19 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 19 native=25
+  # 20 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 20 native=42
+  # 21 cortex=62 mu=anthropic/claude-haiku-4.5
+  # 21 native=78
+  # 22 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 22 native=28
+  # 23 cortex=68 mu=anthropic/claude-haiku-4.5
+  # 23 native=72
+  # 24 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 24 native=42
+  # 25 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 25 native=42
+  # 26 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 26 native=25
+  # 27 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 27 native=28
+  # 28 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 28 native=42
+  # 29 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 29 native=72
+  # 30 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 30 native=42
+  # 31 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 31 native=72
+  # 32 cortex=82 mu=anthropic/claude-haiku-4.5
+  # 32 native=78
+  # 33 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 33 native=42
+  # 34 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 34 native=72
+  # 35 cortex=82 mu=anthropic/claude-haiku-4.5
+  # 35 native=78
+  # 36 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 36 native=78
+  # 37 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 37 native=72
+  # 38 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 38 native=72
+  # 39 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 39 native=72
+  # 40 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 40 native=78
+  # 41 cortex=62 mu=anthropic/claude-haiku-4.5
+  # 41 native=42
+  # 42 cortex=62 mu=anthropic/claude-haiku-4.5
+  # 42 native=42
+  # 43 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 43 native=72
+  # 44 cortex=42 mu=anthropic/claude-haiku-4.5
+  # 44 native=42
+  # 45 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 45 native=72
+  # 46 cortex=68 mu=anthropic/claude-haiku-4.5
+  # 46 native=72
+  # 47 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 47 native=72
+  # 48 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 48 native=72
+  # 49 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 49 native=42
+  # 50 cortex=42 mu=anthropic/claude-haiku-4.5
+  # 50 native=42
+  # 51 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 51 native=42
+  # 52 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 52 native=28
+  # 53 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 53 native=42
+  # 54 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 54 native=42
+  # 55 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 55 native=42
+  # 56 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 56 native=28
+  # 57 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 57 native=78
+  # 58 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 58 native=42
+  # 59 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 59 native=78
+  # 60 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 60 native=78
+  # 61 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 61 native=42
+  # 62 cortex=22 mu=anthropic/claude-haiku-4.5
+  # 62 native=42
+  # 63 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 63 native=42
+  # 64 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 64 native=15
+  # 65 cortex=22 mu=anthropic/claude-haiku-4.5
+  # 65 native=72
+  # 66 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 66 native=42
+  # 67 cortex=68 mu=anthropic/claude-haiku-4.5
+  # 67 native=72
+  # 68 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 68 native=28
+  # 69 cortex=68 mu=anthropic/claude-haiku-4.5
+  # 69 native=42
+  # 70 cortex=42 mu=anthropic/claude-haiku-4.5
+  # 70 native=42
+  # 71 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 71 native=42
+  # 72 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 72 native=42
+  # 73 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 73 native=72
+  # 74 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 74 native=25
+  # 75 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 75 native=72
+  # 76 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 76 native=42
+  # 77 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 77 native=72
+  # 78 cortex=13 mu=anthropic/claude-haiku-4.5
+  # 78 native=78
+  # 79 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 79 native=42
+  # 80 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 80 native=78
+  # 81 cortex=72 mu=anthropic/claude-haiku-4.5
+  # 81 native=78
+  # 82 cortex=12 mu=anthropic/claude-haiku-4.5
+  # 82 native=78
+  # 83 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 83 native=42
+  # 84 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 84 native=42
+  # 85 cortex=58 mu=anthropic/claude-haiku-4.5
+  # 85 native=42
+  # 86 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 86 native=28
+  # 87 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 87 native=72
+  # 88 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 88 native=42
+  # 89 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 89 native=42
+  # 90 cortex=68 mu=anthropic/claude-haiku-4.5
+  # 90 native=72
+  # 91 cortex=78 mu=anthropic/claude-haiku-4.5
+  # 91 native=72
+  # 92 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 92 native=42
+  # 93 cortex=12 mu=anthropic/claude-haiku-4.5
+  # 93 native=78
+  # 94 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 94 native=72
+  # 95 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 95 native=78
+  # 96 cortex=18 mu=anthropic/claude-haiku-4.5
+  # 96 native=42
+  # 97 cortex=28 mu=anthropic/claude-haiku-4.5
+  # 97 native=72
+  # 98 cortex=42 mu=anthropic/claude-haiku-4.5
+  # 98 native=78
+  # 99 cortex=22 mu=anthropic/claude-haiku-4.5
+  # 99 native=28
+  #100 cortex=28 mu=anthropic/claude-haiku-4.5
+  #100 native=72
+
+=== deepseek/deepseek-v3.2 ===
+  recreated aura with deepseek/deepseek-v3.2, waiting 15s...
+  #  1 cortex=78 mu=deepseek/deepseek-v3.2
+  #  1 native=45
+  #  2 cortex=78 mu=deepseek/deepseek-v3.2
+  #  2 native=30
+  #  3 cortex=80 mu=gemini-2.5-flash-lite
+  #  3 native=40
+  #  4 cortex=45 mu=deepseek/deepseek-v3.2
+  #  4 native=65
+  #  5 cortex=15 mu=deepseek/deepseek-v3.2
+  #  5 native=75
+  #  6 cortex=78 mu=deepseek/deepseek-v3.2
+  #  6 native=65
+  #  7 cortex=45 mu=gemini-2.5-flash-lite
+  #  7 native=40
+  #  8 cortex=40 mu=deepseek/deepseek-v3.2
+  #  8 native=30
+  #  9 cortex=32 mu=deepseek/deepseek-v3.2
+  #  9 native=70
+  # 10 cortex=68 mu=deepseek/deepseek-v3.2
+  # 10 native=40
+  # 11 cortex=28 mu=deepseek/deepseek-v3.2
+  # 11 native=45
+  # 12 cortex=78 mu=deepseek/deepseek-v3.2
+  # 12 native=40
+  # 13 cortex=12 mu=deepseek/deepseek-v3.2
+  # 13 native=45
+  # 14 cortex=18 mu=deepseek/deepseek-v3.2
+  # 14 native=85
+  # 15 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 15 native=40
+  # 16 cortex=15 mu=deepseek/deepseek-v3.2
+  # 16 native=40
+  # 17 cortex=78 mu=deepseek/deepseek-v3.2
+  # 17 native=25
+  # 18 cortex=15 mu=deepseek/deepseek-v3.2
+  # 18 native=30
+  # 19 cortex=12 mu=deepseek/deepseek-v3.2
+  # 19 native=40
+  # 20 cortex=18 mu=deepseek/deepseek-v3.2
+  # 20 native=80
+  # 21 cortex=40 mu=deepseek/deepseek-v3.2
+  # 21 native=70
+  # 22 cortex=22 mu=deepseek/deepseek-v3.2
+  # 22 native=45
+  # 23 cortex=42 mu=deepseek/deepseek-v3.2
+  # 23 native=30
+  # 24 cortex=75 mu=deepseek/deepseek-v3.2
+  # 24 native=25
+  # 25 cortex=15 mu=deepseek/deepseek-v3.2
+  # 25 native=60
+  # 26 cortex=25 mu=deepseek/deepseek-v3.2
+  # 26 native=15
+  # 27 cortex=18 mu=deepseek/deepseek-v3.2
+  # 27 native=40
+  # 28 cortex=18 mu=deepseek/deepseek-v3.2
+  # 28 native=0
+  # 29 cortex=78 mu=deepseek/deepseek-v3.2
+  # 29 native=45
+  # 30 cortex=20 mu=deepseek/deepseek-v3.2
+  # 30 native=40
+  # 31 cortex=78 mu=deepseek/deepseek-v3.2
+  # 31 native=75
+  # 32 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 32 native=40
+  # 33 cortex=78 mu=deepseek/deepseek-v3.2
+  # 33 native=75
+  # 34 cortex=78 mu=deepseek/deepseek-v3.2
+  # 34 native=80
+  # 35 cortex=78 mu=deepseek/deepseek-v3.2
+  # 35 native=65
+  # 36 cortex=78 mu=deepseek/deepseek-v3.2
+  # 36 native=50
+  # 37 cortex=78 mu=deepseek/deepseek-v3.2
+  # 37 native=85
+  # 38 cortex=78 mu=deepseek/deepseek-v3.2
+  # 38 native=85
+  # 39 cortex=82 mu=deepseek/deepseek-v3.2
+  # 39 native=10
+  # 40 cortex=78 mu=deepseek/deepseek-v3.2
+  # 40 native=85
+  # 41 cortex=28 mu=deepseek/deepseek-v3.2
+  # 41 native=25
+  # 42 cortex=28 mu=deepseek/deepseek-v3.2
+  # 42 native=75
+  # 43 cortex=58 mu=deepseek/deepseek-v3.2
+  # 43 native=45
+  # 44 cortex=40 mu=deepseek/deepseek-v3.2
+  # 44 native=45
+  # 45 cortex=65 mu=deepseek/deepseek-v3.2
+  # 45 native=45
+  # 46 cortex=78 mu=deepseek/deepseek-v3.2
+  # 46 native=25
+  # 47 cortex=75 mu=deepseek/deepseek-v3.2
+  # 47 native=30
+  # 48 cortex=78 mu=deepseek/deepseek-v3.2
+  # 48 native=40
+  # 49 cortex=78 mu=deepseek/deepseek-v3.2
+  # 49 native=65
+  # 50 cortex=45 mu=deepseek/deepseek-v3.2
+  # 50 native=50
+  # 51 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 51 native=60
+  # 52 cortex=18 mu=deepseek/deepseek-v3.2
+  # 52 native=25
+  # 53 cortex=15 mu=deepseek/deepseek-v3.2
+  # 53 native=40
+  # 54 cortex=18 mu=deepseek/deepseek-v3.2
+  # 54 native=65
+  # 55 cortex=20 mu=deepseek/deepseek-v3.2
+  # 55 native=45
+  # 56 cortex=15 mu=deepseek/deepseek-v3.2
+  # 56 native=30
+  # 57 cortex=12 mu=deepseek/deepseek-v3.2
+  # 57 native=45
+  # 58 cortex=20 mu=deepseek/deepseek-v3.2
+  # 58 native=50
+  # 59 cortex=38 mu=deepseek/deepseek-v3.2
+  # 59 native=50
+  # 60 cortex=25 mu=deepseek/deepseek-v3.2
+  # 60 native=70
+  # 61 cortex=18 mu=deepseek/deepseek-v3.2
+  # 61 native=25
+  # 62 cortex=18 mu=deepseek/deepseek-v3.2
+  # 62 native=40
+  # 63 cortex=78 mu=deepseek/deepseek-v3.2
+  # 63 native=75
+  # 64 cortex=25 mu=deepseek/deepseek-v3.2
+  # 64 native=40
+  # 65 cortex=30 mu=deepseek/deepseek-v3.2
+  # 65 native=55
+  # 66 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 66 native=70
+  # 67 cortex=38 mu=deepseek/deepseek-v3.2
+  # 67 native=65
+  # 68 cortex=20 mu=deepseek/deepseek-v3.2
+  # 68 native=30
+  # 69 cortex=62 mu=deepseek/deepseek-v3.2
+  # 69 native=30
+  # 70 cortex=36 mu=deepseek/deepseek-v3.2
+  # 70 native=30
+  # 71 cortex=18 mu=deepseek/deepseek-v3.2
+  # 71 native=30
+  # 72 cortex=32 mu=deepseek/deepseek-v3.2
+  # 72 native=40
+  # 73 cortex=20 mu=deepseek/deepseek-v3.2
+  # 73 native=40
+  # 74 cortex=18 mu=deepseek/deepseek-v3.2
+  # 74 native=35
+  # 75 cortex=42 mu=deepseek/deepseek-v3.2
+  # 75 native=45
+  # 76 cortex=15 mu=deepseek/deepseek-v3.2
+  # 76 native=30
+  # 77 cortex=78 mu=deepseek/deepseek-v3.2
+  # 77 native=45
+  # 78 cortex=40 mu=deepseek/deepseek-v3.2
+  # 78 native=65
+  # 79 cortex=20 mu=deepseek/deepseek-v3.2
+  # 79 native=25
+  # 80 cortex=80 mu=gemini-2.5-flash-lite
+  # 80 native=70
+  # 81 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 81 native=45
+  # 82 cortex=18 mu=deepseek/deepseek-v3.2
+  # 82 native=30
+  # 83 cortex=28 mu=deepseek/deepseek-v3.2
+  # 83 native=20
+  # 84 cortex=12 mu=deepseek/deepseek-v3.2
+  # 84 native=75
+  # 85 cortex=60 mu=deepseek/deepseek-v3.2
+  # 85 native=85
+  # 86 cortex=15 mu=deepseek/deepseek-v3.2
+  # 86 native=30
+  # 87 cortex=None mu=
+      ERR: http_502: {"error":"detection_failed","message":"gemini(gemini-2.5-flash-lite): You exceeded your current quota, please 
+  # 87 native=30
+  # 88 cortex=15 mu=deepseek/deepseek-v3.2
+  # 88 native=35
+  # 89 cortex=12 mu=deepseek/deepseek-v3.2
+  # 89 native=40
+  # 90 cortex=32 mu=deepseek/deepseek-v3.2
+  # 90 native=35
+  # 91 cortex=78 mu=deepseek/deepseek-v3.2
+  # 91 native=70
+  # 92 cortex=15 mu=deepseek/deepseek-v3.2
+  # 92 native=70
+  # 93 cortex=18 mu=deepseek/deepseek-v3.2
+  # 93 native=80
+  # 94 cortex=12 mu=deepseek/deepseek-v3.2
+  # 94 native=30
+  # 95 cortex=18 mu=deepseek/deepseek-v3.2
+  # 95 native=40
+  # 96 cortex=18 mu=deepseek/deepseek-v3.2
+  # 96 native=40
+  # 97 cortex=15 mu=deepseek/deepseek-v3.2
+  # 97 native=40
+  # 98 cortex=32 mu=deepseek/deepseek-v3.2
+  # 98 native=35
+  # 99 cortex=18 mu=deepseek/deepseek-v3.2
+  # 99 native=45
+  #100 cortex=70 mu=deepseek/deepseek-v3.2
+  #100 native=40
+
+=== openai/gpt-5.4-mini ===
+  recreated aura with openai/gpt-5.4-mini, waiting 15s...
+  #  1 cortex=78 mu=openai/gpt-5.4-mini
+  #  1 native=68
+  #  2 cortex=84 mu=openai/gpt-5.4-mini
+  #  2 native=86
+  #  3 cortex=78 mu=openai/gpt-5.4-mini
+  #  3 native=85
+  #  4 cortex=81 mu=openai/gpt-5.4-mini
+  #  4 native=78
+  #  5 cortex=88 mu=openai/gpt-5.4-mini
+  #  5 native=92
+  #  6 cortex=80 mu=openai/gpt-5.4-mini
+  #  6 native=86
+  #  7 cortex=41 mu=openai/gpt-5.4-mini
+  #  7 native=87
+  #  8 cortex=57 mu=openai/gpt-5.4-mini
+  #  8 native=73
+  #  9 cortex=46 mu=openai/gpt-5.4-mini
+  #  9 native=78
+  # 10 cortex=82 mu=openai/gpt-5.4-mini
+  # 10 native=84
+  # 11 cortex=70 mu=openai/gpt-5.4-mini
+  # 11 native=82
+  # 12 cortex=78 mu=openai/gpt-5.4-mini
+  # 12 native=57
+  # 13 cortex=12 mu=openai/gpt-5.4-mini
+  # 13 native=64
+  # 14 cortex=16 mu=openai/gpt-5.4-mini
+  # 14 native=87
+  # 15 cortex=20 mu=openai/gpt-5.4-mini
+  # 15 native=24
+  # 16 cortex=28 mu=openai/gpt-5.4-mini
+  # 16 native=72
+  # 17 cortex=34 mu=openai/gpt-5.4-mini
+  # 17 native=12
+  # 18 cortex=14 mu=openai/gpt-5.4-mini
+  # 18 native=34
+  # 19 cortex=18 mu=openai/gpt-5.4-mini
+  # 19 native=22
+  # 20 cortex=22 mu=openai/gpt-5.4-mini
+  # 20 native=32
+  # 21 cortex=83 mu=openai/gpt-5.4-mini
+  # 21 native=78
+  # 22 cortex=60 mu=openai/gpt-5.4-mini
+  # 22 native=87
+  # 23 cortex=66 mu=openai/gpt-5.4-mini
+  # 23 native=77
+  # 24 cortex=84 mu=openai/gpt-5.4-mini
+  # 24 native=74
+  # 25 cortex=40 mu=openai/gpt-5.4-mini
+  # 25 native=72
+  # 26 cortex=32 mu=openai/gpt-5.4-mini
+  # 26 native=82
+  # 27 cortex=36 mu=openai/gpt-5.4-mini
+  # 27 native=67
+  # 28 cortex=18 mu=openai/gpt-5.4-mini
+  # 28 native=82
+  # 29 cortex=80 mu=openai/gpt-5.4-mini
+  # 29 native=14
+  # 30 cortex=59 mu=openai/gpt-5.4-mini
+  # 30 native=31
+  # 31 cortex=80 mu=gemini-2.5-flash-lite
+  # 31 native=84
+  # 32 cortex=84 mu=openai/gpt-5.4-mini
+  # 32 native=88
+  # 33 cortex=85 mu=openai/gpt-5.4-mini
+  # 33 native=51
+  # 34 cortex=86 mu=openai/gpt-5.4-mini
+  # 34 native=78
+  # 35 cortex=84 mu=openai/gpt-5.4-mini
+  # 35 native=85
+  # 36 cortex=81 mu=openai/gpt-5.4-mini
+  # 36 native=84
+  # 37 cortex=81 mu=openai/gpt-5.4-mini
+  # 37 native=87
+  # 38 cortex=85 mu=openai/gpt-5.4-mini
+  # 38 native=86
+  # 39 cortex=82 mu=openai/gpt-5.4-mini
+  # 39 native=86
+  # 40 cortex=79 mu=openai/gpt-5.4-mini
+  # 40 native=81
+  # 41 cortex=47 mu=openai/gpt-5.4-mini
+  # 41 native=78
+  # 42 cortex=78 mu=openai/gpt-5.4-mini
+  # 42 native=85
+  # 43 cortex=68 mu=openai/gpt-5.4-mini
+  # 43 native=72
+  # 44 cortex=43 mu=openai/gpt-5.4-mini
+  # 44 native=42
+  # 45 cortex=80 mu=openai/gpt-5.4-mini
+  # 45 native=66
+  # 46 cortex=88 mu=openai/gpt-5.4-mini
+  # 46 native=76
+  # 47 cortex=55 mu=openai/gpt-5.4-mini
+  # 47 native=82
+  # 48 cortex=77 mu=openai/gpt-5.4-mini
+  # 48 native=72
+  # 49 cortex=81 mu=openai/gpt-5.4-mini
+  # 49 native=74
+  # 50 cortex=68 mu=openai/gpt-5.4-mini
+  # 50 native=61
+  # 51 cortex=47 mu=openai/gpt-5.4-mini
+  # 51 native=41
+  # 52 cortex=41 mu=openai/gpt-5.4-mini
+  # 52 native=74
+  # 53 cortex=67 mu=openai/gpt-5.4-mini
+  # 53 native=82
+  # 54 cortex=28 mu=openai/gpt-5.4-mini
+  # 54 native=71
+  # 55 cortex=60 mu=openai/gpt-5.4-mini
+  # 55 native=32
+  # 56 cortex=26 mu=openai/gpt-5.4-mini
+  # 56 native=21
+  # 57 cortex=18 mu=openai/gpt-5.4-mini
+  # 57 native=18
+  # 58 cortex=29 mu=openai/gpt-5.4-mini
+  # 58 native=12
+  # 59 cortex=45 mu=openai/gpt-5.4-mini
+  # 59 native=72
+  # 60 cortex=72 mu=openai/gpt-5.4-mini
+  # 60 native=84
+  # 61 cortex=38 mu=openai/gpt-5.4-mini
+  # 61 native=14
+  # 62 cortex=53 mu=openai/gpt-5.4-mini
+  # 62 native=18
+  # 63 cortex=76 mu=openai/gpt-5.4-mini
+  # 63 native=78
+  # 64 cortex=14 mu=openai/gpt-5.4-mini
+  # 64 native=67
+  # 65 cortex=45 mu=openai/gpt-5.4-mini
+  # 65 native=78
+  # 66 cortex=71 mu=openai/gpt-5.4-mini
+  # 66 native=72
+  # 67 cortex=57 mu=openai/gpt-5.4-mini
+  # 67 native=84
+  # 68 cortex=84 mu=openai/gpt-5.4-mini
+  # 68 native=74
+  # 69 cortex=77 mu=openai/gpt-5.4-mini
+  # 69 native=78
+  # 70 cortex=46 mu=openai/gpt-5.4-mini
+  # 70 native=73
+  # 71 cortex=85 mu=openai/gpt-5.4-mini
+  # 71 native=18
+  # 72 cortex=43 mu=openai/gpt-5.4-mini
+  # 72 native=62
+  # 73 cortex=34 mu=openai/gpt-5.4-mini
+  # 73 native=74
+  # 74 cortex=18 mu=openai/gpt-5.4-mini
+  # 74 native=27
+  # 75 cortex=61 mu=openai/gpt-5.4-mini
+  # 75 native=86
+  # 76 cortex=47 mu=openai/gpt-5.4-mini
+  # 76 native=83
+  # 77 cortex=83 mu=openai/gpt-5.4-mini
+  # 77 native=73
+  # 78 cortex=76 mu=openai/gpt-5.4-mini
+  # 78 native=62
+  # 79 cortex=20 mu=openai/gpt-5.4-mini
+  # 79 native=31
+  # 80 cortex=73 mu=openai/gpt-5.4-mini
+  # 80 native=17
+  # 81 cortex=80 mu=openai/gpt-5.4-mini
+  # 81 native=63
+  # 82 cortex=17 mu=openai/gpt-5.4-mini
+  # 82 native=14
+  # 83 cortex=24 mu=openai/gpt-5.4-mini
+  # 83 native=58
+  # 84 cortex=23 mu=openai/gpt-5.4-mini
+  # 84 native=98
+  # 85 cortex=61 mu=openai/gpt-5.4-mini
+  # 85 native=84
+  # 86 cortex=41 mu=openai/gpt-5.4-mini
+  # 86 native=73
+  # 87 cortex=33 mu=openai/gpt-5.4-mini
+  # 87 native=74
+  # 88 cortex=19 mu=openai/gpt-5.4-mini
+  # 88 native=34
+  # 89 cortex=34 mu=openai/gpt-5.4-mini
+  # 89 native=32
+  # 90 cortex=67 mu=openai/gpt-5.4-mini
+  # 90 native=57
+  # 91 cortex=79 mu=openai/gpt-5.4-mini
+  # 91 native=21
+  # 92 cortex=24 mu=openai/gpt-5.4-mini
+  # 92 native=73
+  # 93 cortex=32 mu=openai/gpt-5.4-mini
+  # 93 native=82
+  # 94 cortex=37 mu=openai/gpt-5.4-mini
+  # 94 native=72
+  # 95 cortex=20 mu=openai/gpt-5.4-mini
+  # 95 native=73
+  # 96 cortex=12 mu=openai/gpt-5.4-mini
+  # 96 native=23
+  # 97 cortex=52 mu=openai/gpt-5.4-mini
+  # 97 native=88
+  # 98 cortex=40 mu=openai/gpt-5.4-mini
+  # 98 native=78
+  # 99 cortex=42 mu=openai/gpt-5.4-mini
+  # 99 native=74
+  #100 cortex=88 mu=openai/gpt-5.4-mini
+  #100 native=84
+
+Wrote 600 rows to /tmp/results-v2.csv
