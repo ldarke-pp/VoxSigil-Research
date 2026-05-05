@@ -28,8 +28,8 @@ def set_model_and_recreate(model):
           f"p=re.sub(r'OPENROUTER_MODEL: [^\\n]+', 'OPENROUTER_MODEL: {model}', p);"
           f"open('{COMPOSE_PATH}','w').write(p)")
     subprocess.run(["python3","-c",py], check=True)
-    subprocess.run(["bash","-lc","cd /home/deploy/repos/darke-studio && docker compose -f docker-compose.alpha.yml up -d --force-recreate aura > /dev/null 2>&1"], check=True)
-    print(f"  recreated aura with {model}, waiting 15s...", flush=True)
+    subprocess.run(["bash","-lc","cd /home/deploy/repos/darke-studio && docker compose -f docker-compose.alpha.yml up -d --force-recreate voxsigil > /dev/null 2>&1"], check=True)
+    print(f"  recreated voxsigil with {model}, waiting 15s...", flush=True)
     time.sleep(15)
 
 def post_json(url, body, headers, timeout=90):
@@ -48,7 +48,7 @@ def post_json(url, body, headers, timeout=90):
 
 def cortex_call(text, sample_id):
     status, raw = post_json("http://127.0.0.1:3031/api/check", {"text": text},
-                            {"Cookie": f"aura_check_id=v2-{sample_id}-{int(time.time())}"})
+                            {"Cookie": f"voxsigil_check_id=v2-{sample_id}-{int(time.time())}"})
     if status != 200:
         return None, "", f"http_{status}: {raw[:200]}"
     try:

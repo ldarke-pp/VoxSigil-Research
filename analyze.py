@@ -7,7 +7,7 @@ import csv, random, statistics
 from pathlib import Path
 from collections import defaultdict
 
-CSV = Path("/sessions/compassionate-affectionate-sagan/mnt/Claude-Research/aura-research/results-v2.csv")
+CSV = Path("data/results-v2.csv")
 
 def load():
     rows = []
