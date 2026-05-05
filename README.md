@@ -125,5 +125,5 @@ VoxSigil is a Darke Mode product — a free AI-likeness checker that doesn't ove
 Built by Lee Darke. An operator who got tired of AI that sounds like everyone else.
 
 - VoxSigil: https://voxsigil.darkemode.ai
-- Aura Studio (agency platform): https://studio.darkemode.ai
+- VoxSigil Studio (agency platform): https://studio.darkemode.ai
 - Darke Mode: https://darkemode.ai
