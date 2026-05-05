@@ -1,4 +1,7 @@
-# Aura Voice Cortex vs Base Model — Pre-registered N=100 Paired Study (v2)
+# VoxSigil Voice Cortex vs Base Model — Pre-registered N=100 Paired Study (v2)
+
+> **Note (2026-05-05):** Originally published 2026-04-28 as the Aura Voice Cortex study. Renamed to **VoxSigil Voice Cortex** for production launch; the underlying Cortex (prompt, model, methodology) is unchanged. Same N, same data, same conclusions. Citations to either name resolve to this study.
+
 
 **Status:** Complete. **Verdict: Cortex meaningfully better than bare prompt — pre-registered threshold cleared on every model and across models.**
 
@@ -9,7 +12,7 @@
 
 ## Headline result
 
-**Across all three paid frontier-class models tested, the Aura Voice Cortex prompt produces materially more accurate AI-likeness scoring than the same model with a bare "rate 0–100" prompt — and the result is statistically significant under our pre-registered threshold.**
+**Across all three paid frontier-class models tested, the VoxSigil Voice Cortex prompt produces materially more accurate AI-likeness scoring than the same model with a bare "rate 0–100" prompt — and the result is statistically significant under our pre-registered threshold.**
 
 | Test | N | Cortex MAE | Native MAE | Mean Δ | 95% CI on Δ | Pre-registered verdict |
 |---|---|------------|------------|--------|--------------|-------------------------|
@@ -55,7 +58,7 @@ Each sample labeled with: predicted score (0–100), class, 1-sentence rationale
 
 ### Conditions
 
-- **Cortex condition:** Aura Voice Cortex system prompt (4-factor decomposition + calibration anchors + template-structure override + hard floor) called via `/api/check` endpoint with the configured model.
+- **Cortex condition:** VoxSigil Voice Cortex system prompt (4-factor decomposition + calibration anchors + template-structure override + hard floor) called via `/api/check` endpoint with the configured model.
 - **Native condition:** Direct OpenRouter call to the same model with bare system prompt: *"Rate the following text on a 0–100 scale for AI-likeness. 0 means obviously human-written. 100 means obviously AI-generated. Respond with ONLY a single integer between 0 and 100."*
 
 `temperature=0.2`, `max_tokens=600` (cortex) / 40 (native). Single run per (sample × model × condition). Total: 600 API calls.
@@ -98,7 +101,7 @@ This study is the first commercial detection-tool study published in this format
 
 1. **Single primary rater (Claude).** The labeled set was scored by one model-class judgment. Inter-rater bias is a real risk, partly mitigated by paired Cortex-vs-native comparison (which controls for systematic rater bias). A multi-human-rater study is the natural follow-up.
 2. **Same-family rater bias.** Anthropic's Claude is the rater; Anthropic's Haiku 4.5 is one of the test models. The class-stratified result is robust to this (the human-class gain appears across DeepSeek and OpenAI models too), but absolute MAE numbers for Haiku may be slightly inflated.
-3. **DeepSeek N=94 not 100.** Six samples encountered transient OpenRouter routing failures during the run that triggered the Aura production fallback to Gemini-2.5-flash-lite. Those rows excluded from per-model DeepSeek analysis to keep the model variable clean.
+3. **DeepSeek N=94 not 100.** Six samples encountered transient OpenRouter routing failures during the run that triggered the VoxSigil production fallback to Gemini-2.5-flash-lite. Those rows excluded from per-model DeepSeek analysis to keep the model variable clean.
 4. **No ESL-stratification yet.** Stanford's finding that AI detectors flag 61% of non-native English essays as AI is not directly tested in this v1 study. Most "non-native English speaker" LinkedIn content surfaces in fluent English; authentic ESL writing patterns would require a curated dataset. Flagged as next-study priority.
 5. **No competitor head-to-head.** Same N=100 dataset run through GPTZero / Originality / Copyleaks for direct comparison would be the natural extension; deferred to v2 of this study.
 6. **N=100 is still moderate.** A larger N (say 500+) would tighten CIs further and resolve some of the per-class noise. v1 budget capped at $5; future runs can scale up.
@@ -107,10 +110,10 @@ This study is the first commercial detection-tool study published in this format
 
 ## Disposition
 
-- **Cortex stays in production** as the detection layer for `aura.darkemode.ai/api/check`.
-- **Marketing claim is now fully defensible:** *"Aura's Voice Cortex doesn't over-flag your writing as AI. We measured this — across three frontier-class LLMs (Claude, DeepSeek, GPT) on 100 LinkedIn posts, the Cortex prompt reduced scoring error by 7.2 MAE points on average (95% CI: 4.6–9.8). The biggest gain was on human-written content, which bare models systematically over-flag by 14–24 points."* Cite the dataset and prompt.
+- **Cortex stays in production** as the detection layer for `voxsigil.darkemode.ai/api/check`.
+- **Marketing claim is now fully defensible:** *"VoxSigil's Voice Cortex doesn't over-flag your writing as AI. We measured this — across three frontier-class LLMs (Claude, DeepSeek, GPT) on 100 LinkedIn posts, the Cortex prompt reduced scoring error by 7.2 MAE points on average (95% CI: 4.6–9.8). The biggest gain was on human-written content, which bare models systematically over-flag by 14–24 points."* Cite the dataset and prompt.
 - **Sprint 2.3 (voice extraction)** proceeds with Cortex pattern, justified by the inverse-symmetry corollary.
-- **Public publication** at `darkemode.ai/research/aura-voice-cortex-2026-04` and `github.com/empowerit-dev/aura-cortex-research` (CC0 1.0). Full data, full prompt, full methodology, including the negative findings.
+- **Public publication** at `darkemode.ai/research/voxsigil-voice-cortex-2026-04` and `github.com/ldarke-pp/VoxSigil-Research` (CC0 1.0). Full data, full prompt, full methodology, including the negative findings.
 
 ---
 

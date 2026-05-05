@@ -1,15 +1,18 @@
-# Aura Voice Cortex — Research Repository
+# VoxSigil Voice Cortex — Research Repository
 
-**Pre-registered N=100 paired study comparing the Aura Voice Cortex prompt against bare-prompt scoring on three frontier-class LLMs.**
+**Pre-registered N=100 paired study comparing the VoxSigil Voice Cortex prompt against bare-prompt scoring on three frontier-class LLMs.**
 
 > *AI detectors are mostly crap. That's not the point.*
-> *Aura is built differently. We publish the data.*
+> *VoxSigil is built differently. We publish the data.*
 
-This repository contains the full methodology, dataset, prompt, scripts, and findings for the Aura Voice Cortex 2026-04-28 detection study. Built in plain sight, per the Darke Mode commitment.
+This repository contains the full methodology, dataset, prompt, scripts, and findings for the VoxSigil Voice Cortex 2026-04-28 detection study. Built in plain sight, per the Darke Mode commitment.
 
 ## Headline result
 
-**Across three frontier-class LLMs (Anthropic Claude Haiku 4.5, DeepSeek V3.2, OpenAI GPT-5.4-mini), the Aura Voice Cortex prompt reduces AI-likeness scoring error by 4.6–9.8 MAE points (95% CI) compared to a bare "rate 0–100" prompt on the same model.**
+**Across three frontier-class LLMs (Anthropic Claude Haiku 4.5, DeepSeek V3.2, OpenAI GPT-5.4-mini), the VoxSigil Voice Cortex prompt reduces AI-likeness scoring error by 4.6–9.8 MAE points (95% CI) compared to a bare "rate 0–100" prompt on the same model.**
+
+> **Note (2026-05-05):** This repository was originally published as `aura-cortex-research` describing the Aura Voice Cortex. Renamed to **VoxSigil Voice Cortex** for production launch. Same data, same methodology, same code, same prompt, same N — see commit history for the rename diff. Citations to either name resolve to this study.
+
 
 | Model | N | Cortex MAE | Native MAE | Mean Δ | 95% CI |
 |---|---|------|------|------|------|
@@ -58,7 +61,7 @@ We invite competitors to match the methodology and publish their own.
 ├── README.md                       — this file
 ├── LICENSE                         — CC0 1.0
 ├── analysis.md                     — full pre-registered research note
-├── cortex-detection-prompt.md      — the Aura Voice Cortex prompt (verbatim from production)
+├── cortex-detection-prompt.md      — the VoxSigil Voice Cortex prompt (verbatim from production)
 ├── run_experiment.py               — paired-comparison runner
 ├── analyze.py                      — bootstrap 95% CI analysis
 └── data/
@@ -72,13 +75,13 @@ We invite competitors to match the methodology and publish their own.
 
 You'll need:
 - An OpenRouter API key (paid models — total cost ~$5)
-- Access to the Aura Voice Cortex API at `aura.darkemode.ai/api/check` (or your own deployment using the prompt in `cortex-detection-prompt.md`)
+- Access to the VoxSigil Voice Cortex API at `voxsigil.darkemode.ai/api/check` (or your own deployment using the prompt in `cortex-detection-prompt.md`)
 - Python 3.10+
 
 ```bash
 # Clone the repo
-git clone https://github.com/ldarke-pp/aura-cortex-research
-cd aura-cortex-research
+git clone https://github.com/ldarke-pp/VoxSigil-Research
+cd VoxSigil-Research
 
 # Run the paired comparison
 OPENROUTER_API_KEY=sk-or-... python3 run_experiment.py
@@ -91,11 +94,11 @@ Or — to evaluate just the Cortex prompt against your own dataset — copy `cor
 
 ## What's in production
 
-The Cortex prompt published here is the version deployed at `aura.darkemode.ai/api/check` as of 2026-04-28 (Sprint 2.1c-trust + template-anchor patch + hard-floor). It runs on `openai/gpt-oss-120b:free` via OpenRouter for free-tier checks (with Gemini-2.5-flash-lite as fallback for resilience). Paid-tier integrations (in development) will use Anthropic Claude Haiku 4.5 with no-training providers.
+The Cortex prompt published here is the version deployed at `voxsigil.darkemode.ai/api/check` as of 2026-04-28 (Sprint 2.1c-trust + template-anchor patch + hard-floor). It runs on `openai/gpt-oss-120b:free` via OpenRouter for free-tier checks (with Gemini-2.5-flash-lite as fallback for resilience). Paid-tier integrations (in development) will use Anthropic Claude Haiku 4.5 with no-training providers.
 
 ## Inverse-symmetry implications
 
-Detection is the inverse of voice extraction. The class-stratified result on human content (Cortex preserves human-band scoring; bare models over-flag) maps directly to the voice-extraction problem: bare-model voice extraction would over-flatten distinctive voice toward generic. The +14–24 MAE preservation on human content predicts that Cortex-pattern voice extraction will preserve voice signal where bare-model extraction would wash it out. Aura Sprint 2.3 (voice extraction) inherits the Cortex pattern for this reason.
+Detection is the inverse of voice extraction. The class-stratified result on human content (Cortex preserves human-band scoring; bare models over-flag) maps directly to the voice-extraction problem: bare-model voice extraction would over-flatten distinctive voice toward generic. The +14–24 MAE preservation on human content predicts that Cortex-pattern voice extraction will preserve voice signal where bare-model extraction would wash it out. VoxSigil Sprint 2.3 (voice extraction) inherits the Cortex pattern for this reason.
 
 ## Limitations & known caveats
 
@@ -113,14 +116,14 @@ This work is licensed under [CC0 1.0](LICENSE). Free to use, study, fork, and ad
 
 If you use this prompt, dataset, or methodology, please cite:
 
-> Aura Voice Cortex Methodology Study (2026-04-28). darkemode.ai/research. CC0 1.0.
+> VoxSigil Voice Cortex Methodology Study (2026-04-28). darkemode.ai/research. CC0 1.0.
 
-## About Aura
+## About VoxSigil
 
-Aura is a Darke Mode product — a free AI-likeness checker that doesn't over-flag your writing as AI, plus paid-tier voice extraction that turns five writing samples into a portable voice profile usable across Claude, ChatGPT, Gemini, and other LLM tools.
+VoxSigil is a Darke Mode product — a free AI-likeness checker that doesn't over-flag your writing as AI, plus paid-tier voice extraction that turns five writing samples into a portable voice profile usable across Claude, ChatGPT, Gemini, and other LLM tools.
 
 Built by Lee Darke. An operator who got tired of AI that sounds like everyone else.
 
-- Aura: https://aura.darkemode.ai
+- VoxSigil: https://voxsigil.darkemode.ai
 - Aura Studio (agency platform): https://studio.darkemode.ai
 - Darke Mode: https://darkemode.ai

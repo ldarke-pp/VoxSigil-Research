@@ -1,7 +1,7 @@
-# Aura Voice Cortex — Detection Prompt
+# VoxSigil Voice Cortex — Detection Prompt
 
-**Source:** `packages/voice-engine/src/detect.ts` (production, as deployed at `aura.darkemode.ai`).
-**License:** CC0 1.0 — free to use, study, fork; please cite Aura.
+**Source:** `packages/voice-engine/src/detect.ts` (production, as deployed at `voxsigil.darkemode.ai`).
+**License:** CC0 1.0 — free to use, study, fork; please cite VoxSigil.
 **Version:** 2026-04-28 (Sprint 2.1c-trust + template-anchor patch + hard-floor)
 
 ---
@@ -234,4 +234,4 @@ Sample dataset (`labels-v2.json`) and runner script (`run_experiment_v2.py`) inc
 
 If you use this prompt or methodology, please cite:
 
-> Aura Voice Cortex Methodology Study (2026-04-28). darkemode.ai/research. CC0 1.0.
+> VoxSigil Voice Cortex Methodology Study (2026-04-28). darkemode.ai/research. CC0 1.0.
